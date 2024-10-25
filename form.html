@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compostela Fitness Club</title>
+</head>
+<body>
+
+    <img src="./img/planification.png" alt="planification" width="300"/>
+
+    <form action="data.php" >
+        <fieldset>
+        <legend>Menber Demographics </legend>
+        <label for="fname">Name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        Are you a Member? <br>
+        <input type="radio" name="gender" id="member" value="member">
+        <label for="menber">Member</label>
+        <input type="radio" name="gender" id="non-member" value="non-member">
+        <label for="non-member">Non-member</label>
+        
+
+        <br> <br>
+        <label for="fname">Email:</label>
+        <input type="text" id="fmail" name="fmail"><br><br>
+        </fieldset> <br>
+
+        Facility <br>
+        <select id="facility" name="facility">
+            <option value="" selected="selected">- select -</option>
+            <option value="indoor">Indoor football</option>
+            <option value="badmiton">Badmiton</option>
+            <option value="squash">Squash</option>
+            <option value="racquetball">Racquetball</option>
+            <option value="basquetball">Basquetball</option>
+
+           >
+        </select><br><br>
+        Select a reservation date and time: <br><br>
+
+        <input type="date" name="date" id="name"> 
+        <input type="time" name="time" id="time">
+        
+        <br> <br>
+
+        <input type="checkbox" id="agree" name="agree"> 
+        <label for="agre"> I agree to the club`s reservation policy</label> 
+        <br> <br>
+     
+
+        <input type="submit" value="Submit">
+
+
+
+
+    </form>
+    
+</body>
+</html>
